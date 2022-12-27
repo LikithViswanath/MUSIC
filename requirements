@@ -1,0 +1,6 @@
+djangorestframework
+boto3
+awscli
+opensearch-py
+requests
+requests-aws4auth
