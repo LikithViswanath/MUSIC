@@ -113,7 +113,7 @@ class ElasticSearchOperations:
         query = {
             'aggs': {
                 'playlists': {
-                    'terms': {'field': 'genre.keyword'}
+                    'terms': {'field': 'album.keyword'}
                 }
             }
         }
